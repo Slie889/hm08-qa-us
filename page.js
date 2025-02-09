@@ -17,6 +17,8 @@ module.exports = {
     closePaymentMethodModalButton: '.payment-picker .close-button',
     // Modals
     phoneNumberModal: '.modal',
+    cardSignatureStrip: '.plc',
+    cardPaymentMethodIcon: 'img[alt="card"],
     // Functions
     fillAddresses: async function(from, to) {
         const fromField = await $(this.fromField);
