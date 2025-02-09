@@ -9,8 +9,8 @@ module.exports = {
     phoneNumberButton: '//div[starts-with(text(), "Phone number")]',
     nextButton: 'button=Next',
     confirmButton: 'button=Confirm',
-    paymentMethodButton: '.pp-text'
-    
+    paymentMethodButton: '.pp-text',
+    addCardButton: 'div=Add card',
     // Modals
     phoneNumberModal: '.modal',
     // Functions
