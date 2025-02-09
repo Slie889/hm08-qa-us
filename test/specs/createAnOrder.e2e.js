@@ -20,6 +20,9 @@ describe('Create an order', () => {
         const cardCode = await $(page.cardCode);
         await cardCode.waitForDisplayed();
         await cardCode.setValue(55);
+        const linkCardButton = await $(page.linkCardButton);
+        await linkCardButton.waitForDisplayed();
+        await linkCardButton.click();
 
         await browser.pause(2000);
     
