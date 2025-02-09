@@ -25,8 +25,7 @@ describe('Create an order', () => {
         await cardSignatureStrip.waitForDisplayed();
         await cardSignatureStrip.click();
 
-        await browser.pause(2000);
-        
+             
         const linkCardButton = await $(page.linkCardButton);
         await linkCardButton.waitForDisplayed();
         await linkCardButton.click();
@@ -40,9 +39,11 @@ describe('Create an order', () => {
         await cardPaymentMethodIcon.waitForDisplayed();
         await expect(await $(cardPaymentMethodIcon)).toBeExisting();
 
-        
+        await browser.pause(2000);
     
-
+        const phoneNumber = helper.getPhoneNumber("+1");
+        await page.submitPhoneNumber(phoneNumber);
+        await expect(await helper.getElementByText(phoneNumber)).toBeExisting); */
         
         
         const phoneNumberButton = await $(page.phoneNumberButton);
