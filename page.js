@@ -5,6 +5,7 @@ module.exports = {
     phoneNumberField: '#phone',
     codeField: '#code',
     CardNumber: '#number',
+    cardCode: '#.card-second-row #code',
     // Buttons
     callATaxiButton: 'button=Call a taxi',
     phoneNumberButton: '//div[starts-with(text(), "Phone number")]',
