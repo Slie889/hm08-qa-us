@@ -13,6 +13,7 @@ module.exports = {
     confirmButton: 'button=Confirm',
     paymentMethodButton: '.pp-text',
     addCardButton: 'div=Add card',
+    linkCardButton: 'button=Link',
     // Modals
     phoneNumberModal: '.modal',
     // Functions
