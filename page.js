@@ -14,6 +14,7 @@ module.exports = {
     paymentMethodButton: '.pp-text',
     addCardButton: 'div=Add card',
     linkCardButton: 'button=Link',
+    closePaymentMethodModalButton: '.payment-picker .close-button',
     // Modals
     phoneNumberModal: '.modal',
     // Functions
