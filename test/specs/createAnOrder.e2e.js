@@ -38,7 +38,7 @@ describe('Create an order', () => {
 
         const cardPaymentMethodIcon = await $(page.cardPaymentMethodIcon);
         await cardPaymentMethodIcon.waitForDisplayed();
-        await
+        await expect(await $(cardPaymentMethodIcon)).toBeExisting();
 
         
     
