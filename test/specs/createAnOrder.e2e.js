@@ -43,7 +43,7 @@ describe('Create an order', () => {
     
         const phoneNumber = helper.getPhoneNumber("+1");
         await page.submitPhoneNumber(phoneNumber);
-        await expect(await helper.getElementByText(phoneNumber)).toBeExisting); */
+        await expect(await helper.getElementByText(phoneNumber)).toBeExisting);
         
         
         const phoneNumberButton = await $(page.phoneNumberButton);
