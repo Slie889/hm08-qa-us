@@ -14,6 +14,13 @@ describe('Create an order', () => {
         await addCardButton.waitForDisplayed();
         await addCardButton.click();
 
+        const cardNumber = await $(page.cardNumber);
+        await cardNumber.waitForDisplayed();
+        await cardNumber.setValue(1234567812345678);
+        const cardCode = await $(page.cardCode);
+        await cardCode.waitForDisplayed();
+        await cardCode.setValue(55);
+
         await browser.pause(2000);
     
 
