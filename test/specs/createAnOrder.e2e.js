@@ -7,6 +7,8 @@ describe('Create an order', () => {
         await page.fillAddresses('East 2nd Street, 601', '1300 1st St');
 
         const paymentMethodButton = await $(page.paymentMethodButton);
+        await paymentMethodButton.waitForDisplayed();
+        await paymentMethodButton.click();
         
         const phoneNumberButton = await $(page.phoneNumberButton);
         await phoneNumberButton.waitForDisplayed();
