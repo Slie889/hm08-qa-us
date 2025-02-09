@@ -9,6 +9,15 @@ describe('Create an order', () => {
         const paymentMethodButton = await $(page.paymentMethodButton);
         await paymentMethodButton.waitForDisplayed();
         await paymentMethodButton.click();
+
+        const addCardButton = await $(page.addCardButton);
+        await addCardButton.waitForDisplayed();
+        await addCardButton.click();
+
+        await browser.pause(2000);
+    
+
+        
         
         const phoneNumberButton = await $(page.phoneNumberButton);
         await phoneNumberButton.waitForDisplayed();
