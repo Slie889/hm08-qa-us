@@ -56,4 +56,32 @@ module.exports = {
         await codeField.setValue(code)
         await $(this.confirmButton).click()
     },
+    addPaymentMethodCard: async function() {
+        const paymentMethodButton = await $(this.paymentMethodButton);
+        await paymentMethodButton.waitForDisplayed();
+        await paymentMethodButton.click();
+
+        const addCardButton = await $(this.addCardButton);
+        await addCardButton.waitForDisplayed();
+        await addCardButton.click();
+
+        const cardNumber = await $(this.cardNumber);
+        await cardNumber.waitForDisplayed();
+        await cardNumber.setValue(1234567812345678);
+        const cardCode = await $(this.cardCode);
+        await cardCode.waitForDisplayed();
+        await cardCode.setValue(55);
+
+        const cardSignatureStrip = await $(this.cardSignatureStrip);
+        await cardSignatureStrip.waitForDisplayed();
+        await cardSignatureStrip.click();
+             
+        const linkCardButton = await $(this.linkCardButton);
+        await linkCardButton.waitForDisplayed();
+        await linkCardButton.click();
+
+        const closePaymentMethodModalButton = await $(this.closePaymentMethodModalButton);
+        await closePaymentMethodModalButton.waitForDisplayed();
+        await closedPaymentMethodModalButton.click();
+    }
 };
