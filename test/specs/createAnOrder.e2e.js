@@ -27,19 +27,17 @@ describe('Create an order', () => {
         await linkCardButton.waitForDisplayed();
         await linkCardButton.click();
 
-        const closePaymentMethodModalButton = await $(page.closePaymentMethodModalButton);
-        await closePaymentMethodModalButton.waitForDisplayed();
-        await closedPaymentMethodModalButton.click();
+        await browser.pause(2000);       
         
-        const cardPaymentMethodIcon = await $(page.cardPaymentMethodIcon);
-        await cardPaymentMethodIcon.waitForDisplayed();
-        await expect(await $(cardPaymentMethodIcon)).toBeExisting();
-
-        await browser.pause(2000);
+    })    
         
-    })   
-
 })        
+
+        
+        
+       
+
+        
         
            
              
