@@ -10,6 +10,7 @@ A. The purpose of this project testing is automating the UI testing with the Web
 B. We will use Git and GitHub for this project. Set-up instruction as follow below,
 
    Step 1. Clone the repo to your computer
+      
    Linked your account with GitHub, a repository will be created automatically. The repository name will be hm08-qa-us.  
 
    Go to GitHub and clone the new repo to your local computer, using the following steps:
@@ -23,7 +24,8 @@ B. We will use Git and GitHub for this project. Set-up instruction as follow bel
    3. Clone the repo.
    
 
-  Step 2. Work with the project locally
+   Step 2. Work with the project locally
+   
    Open the local copy project folder on your computer.
 
    Before starting to work on the project, run npm install from the console in your project folder. 
