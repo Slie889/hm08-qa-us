@@ -36,25 +36,30 @@ B. We will use Git and GitHub for this project. Set-up instruction as follow bel
    In wdio.conf.js, replace the base URL with the Urban Routes URL generated above.
 
 
-C. The Testing project
+C. Testing project
 
-   Write several tests to check the functionality of the Urban Routes. Write your tests in the createAnOrder.e2e.js file located in the test/specs folder.
+   Write several tests to check the functionality of the Urban Routes. Write your tests in the createAnOrder.e2e.js file 
+   located in the test/specs folder.
 
    Write automated tests covering the full process of ordering a taxi. The test should cover:
    
    1. Setting the address
    2. Selecting Supportive plan
    3. Filling in the phone number
-   4. Adding a credit card (Tip: the "link" button does not become active until the card CVV field on the "Adding a card" modal id="code"; class="card-input" loses focus.
-      To change focus you can simulate the user pressing TAB or clicking somewhere else on the screen).
+   4. Adding a credit card (Tip: the "link" button does not become active until the card CVV field on the "Adding a card" 
+      modal id="code"; class="card-input" loses focus.
+   To change focus you can simulate the user pressing TAB or clicking somewhere else on the screen).
    5. Writing a message for the driver
-   6. Ordering a Blanket and handkerchiefs (Tip: there are two selectors to be aware of here.  One selector to click on and one to run expect on to verify that the state 
+   6. Ordering a Blanket and handkerchiefs (Tip: there are two selectors to be aware of here.  One selector to click on 
+      and one to run expect on to verify that the state 
       changed)
    7. Ordering 2 ice creams
    8. The car search modal appears
-   9. Waiting for the driver info to appear in the modal (optional) In addition to the steps above there is an optional step you can check.
+   9. Waiting for the driver info to appear in the modal (optional) In addition to the steps above there is an optional 
+      step you can check.
 
-   The driver search modal will appear and there will be a countdown while a driver is assigned. The modal will change from showing the car search to the driver info, as     shown below:
+   The driver search modal will appear and there will be a countdown while a driver is assigned. The modal will change 
+   from showing the car search to the driver info, as shown below:
 
    <img width="521" alt="image" src="https://github.com/user-attachments/assets/a7bcb045-d6ab-4630-b1aa-5a3b7507c1c2" />
 
