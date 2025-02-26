@@ -47,7 +47,15 @@ C. The Testing project include several task,
    3. Filling in the phone number
    4. Adding a credit card (Tip: the "link" button does not become active until the card CVV field on the "Adding a card" modal id="code"; class="card-input" loses focus.
       To change focus you can simulate the user pressing TAB or clicking somewhere else on the screen).
+   5. Writing a message for the driver
+   6. Ordering a Blanket and handkerchiefs (Tip: there are two selectors to be aware of here.  One selector to click on and one to run expect on to verify that the state 
+      changed)
+   7. Ordering 2 ice creams
+   8. The car search modal appears
+   9. Waiting for the driver info to appear in the modal (optional) In addition to the steps above there is an optional step you can check.
 
+   The driver search modal will appear and there will be a countdown while a driver is assigned. The modal will change from showing the car search to the driver info, as     shown below:
+   
 
 
 
