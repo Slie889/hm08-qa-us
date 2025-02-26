@@ -34,10 +34,8 @@ B. We will use Git and GitHub for this project. Set-up instruction as follow bel
    In wdio.conf.js, replace the base URL with the Urban Routes URL generated above.
 
 
-C. The Testing project include several task,
+C. The Testing project
 
-   Tasks 1.
-   
    Write several tests to check the functionality of the Urban Routes. Write your tests in the createAnOrder.e2e.js file located in the test/specs folder.
 
    Write automated tests covering the full process of ordering a taxi. The test should cover:
@@ -57,6 +55,11 @@ C. The Testing project include several task,
    The driver search modal will appear and there will be a countdown while a driver is assigned. The modal will change from showing the car search to the driver info, as     shown below:
 
    <img width="521" alt="image" src="https://github.com/user-attachments/assets/a7bcb045-d6ab-4630-b1aa-5a3b7507c1c2" />
+
+
+   
+
+   
 
    
 
