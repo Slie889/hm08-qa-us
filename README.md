@@ -1,6 +1,7 @@
 Urban Route UI Testing Project
 
-A. The purpose of this project testing is automating the UI testing with the WebdriverIO framework. The benefit of using WebdriverIO framework is:
+A. The purpose of this project testing is automating the UI testing with the WebdriverIO framework. The benefit of using 
+   WebdriverIO framework is:
    - Provides a high-level Application Programming Interface (API)
    - Makes writing, maintaining, and scaling tes suites easier.
    - Fits naturally into modern web development stacks
@@ -48,7 +49,7 @@ C. Testing project
    3. Filling in the phone number
    4. Adding a credit card (Tip: the "link" button does not become active until the card CVV field on the "Adding a card" 
       modal id="code"; class="card-input" loses focus.
-   To change focus you can simulate the user pressing TAB or clicking somewhere else on the screen).
+      To change focus you can simulate the user pressing TAB or clicking somewhere else on the screen).
    5. Writing a message for the driver
    6. Ordering a Blanket and handkerchiefs (Tip: there are two selectors to be aware of here.  One selector to click on 
       and one to run expect on to verify that the state 
