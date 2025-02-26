@@ -7,6 +7,7 @@ A. The purpose of this project testing is automating the UI testing with the Web
    - Allows developers to write tests in a familiar language.
 
 
+
 B. We will use Git and GitHub for this project. Set-up instruction as follow below,
 
    Step 1. Clone the repo to your computer
@@ -23,6 +24,7 @@ B. We will use Git and GitHub for this project. Set-up instruction as follow bel
    3. Clone the repo.
    
 
+   
    Step 2. Work with the project locally
    Open the local copy project folder on your computer.
 
@@ -34,6 +36,10 @@ B. We will use Git and GitHub for this project. Set-up instruction as follow bel
    In wdio.conf.js, replace the base URL with the Urban Routes URL generated above.
 
 
+
 C. The Testing project include several task,
 
    Tasks 1.
+   
+   Write several tests to check the functionality of the Urban Routes. Write your tests in the createAnOrder.e2e.js file located in the test/specs folder.
+   
