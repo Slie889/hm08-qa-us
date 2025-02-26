@@ -55,6 +55,9 @@ C. The Testing project include several task,
    9. Waiting for the driver info to appear in the modal (optional) In addition to the steps above there is an optional step you can check.
 
    The driver search modal will appear and there will be a countdown while a driver is assigned. The modal will change from showing the car search to the driver info, as     shown below:
+
+   <img width="521" alt="image" src="https://github.com/user-attachments/assets/a7bcb045-d6ab-4630-b1aa-5a3b7507c1c2" />
+
    
 
 
