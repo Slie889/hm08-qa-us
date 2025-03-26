@@ -1,4 +1,5 @@
 exports.config = {
+
     //
     // ====================
     // Runner Configuration
@@ -50,16 +51,10 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        maxInstances: 10,
+        maxInstances: 5,
         browserName: 'chrome',
-        acceptInsecureCerts: true
-    }],         
-     
-    services: [
-        'chromedriver',
-        'gechodriver',
-        'intercept',
-],
+        acceptInsecureCerts: true,
+    }],
 
     //
     // ===================
@@ -69,7 +64,7 @@ exports.config = {
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     logLevel: 'error',
-    baseUrl: 'https://cnt-4c23865c-6d1b-4bdc-a7ce-69b18b882709.containerhub.tripleten-services.com/',
+    services: ['chromedriver', 'intercept'],
     //
     // Set specific log levels per logger
     // loggers:
@@ -88,6 +83,7 @@ exports.config = {
     // If you only want to run your tests until a specific amount of tests have failed use
     // bail (default is 0 - don't bail, run all tests).
     bail: 0,
+    baseUrl: 'https://cnt-c1c68976-ebe3-4257-9579-64510adfb740.containerhub.tripleten-services.com/',
     //
     // Set a base URL in order to shorten url command calls. If your `url` parameter starts
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
@@ -109,7 +105,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['visual'],
+    services: ['chromedriver'],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -301,3 +297,4 @@ exports.config = {
     // afterAssertion: function(params) {
     // }
 }
+
