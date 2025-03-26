@@ -5,21 +5,25 @@ module.exports = {
     phoneNumberField: '#phone',
     codeField: '#code',
     cardNumber: '#number',
-    cardCode: '.card-code-input #code',
+    cardCode: '.card-code-input #code',  
+    MessageField: '//input[@id="comment"]',
+      
     
     // Buttons
     callATaxiButton: '//button[contains(text(), "Call a taxi")]',
-    phoneNumberButton: '//div[contains(text(), "Phone number")]',
+    phoneNumberButton: '//div[starts-with(text(),"Phone number")]',
     nextButton: '//button[contains(text(),"Next")]',
     confirmButton: '//button[contains(text(), "Confirm")]',
     paymentMethodButton: '.pp-text',
     addCardButton: '//div[contains(text(), "Add card")]',
     linkCardButton: '//button[contains(text(), "Link")]',
-    closePaymentMethodModalButton: '.payment-picker open',
+    closePaymentMethodModalButton: '//*[@class="payment-picker open"] //*[@class="close-button section-close"]', 
+    supportiveButton: '//div[@class="tcard-icon"]//img[@alt="Supportive"]', 
+
     // Modals
     phoneNumberModal: '.modal',
     cardSignatureStrip: '.plc',
-    cardPaymentMethodIcon: 'img[alt="card"]',
+    cardPaymentMethodIcon: '//*[@class="pp-value-container"] //img',
         
     // Functions
     fillAddresses: async function(from, to) {
@@ -30,7 +34,7 @@ module.exports = {
         const callATaxiButton = await $(this.callATaxiButton);
         await callATaxiButton.waitForDisplayed();
         await callATaxiButton.click();
-    },
+    },      
     fillPhoneNumber: async function(phoneNumber) {
         const phoneNumberButton = await $(this.phoneNumberButton);
         await phoneNumberButton.waitForDisplayed();
@@ -40,18 +44,19 @@ module.exports = {
         const phoneNumberField = await $(this.phoneNumberField);
         await phoneNumberField.waitForDisplayed();
         await phoneNumberField.setValue(phoneNumber);
-
     },
     submitPhoneNumber: async function(phoneNumber) {
         await this.fillPhoneNumber(phoneNumber);
         
         // we are starting interception of request from the moment of method call
         await browser.setupInterceptor();
+
         await $(this.nextButton).click();
         
         // we should wait for response
         // eslint-disable-next-line wdio/no-pause
         await browser.pause(2000);
+        
         const codeField = await $(this.codeField);
 
         // collect all responses
@@ -61,6 +66,12 @@ module.exports = {
         const code = await requests[0].response.body.code;
         await codeField.setValue(code);
         await $(this.confirmButton).click();
+    },
+    FillMessage: async function(Messagetothedriver) {
+        const MessageField = await $(this.MessageField);
+        await MessageField.setValue(Messagetothedriver);
+        await MessageField.waitForDisplayed();
+        await MessageField.click();
     },
     addPaymentMethodCard: async function() {
         const addCardButton = await $(this.addCardButton);
