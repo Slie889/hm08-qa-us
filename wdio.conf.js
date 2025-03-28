@@ -83,7 +83,7 @@ exports.config = {
     // If you only want to run your tests until a specific amount of tests have failed use
     // bail (default is 0 - don't bail, run all tests).
     bail: 0,
-    baseUrl: 'https://cnt-c1c68976-ebe3-4257-9579-64510adfb740.containerhub.tripleten-services.com/',
+    baseUrl: 'https://cnt-3120857e-0d6f-40be-a433-5800fe38535d.containerhub.tripleten-services.com/',
     //
     // Set a base URL in order to shorten url command calls. If your `url` parameter starts
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
@@ -297,4 +297,3 @@ exports.config = {
     // afterAssertion: function(params) {
     // }
 }
-
