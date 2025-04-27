@@ -9,6 +9,7 @@ A. The purpose of this project testing is automating the UI testing with the Web
    - Allows developers to write tests in a familiar language.
 
 
+
 B. We will use Git and GitHub for this project. Set-up instruction as follow below,
 
    
@@ -39,11 +40,13 @@ B. We will use Git and GitHub for this project. Set-up instruction as follow bel
    In wdio.conf.js, replace the base URL with the Urban Routes URL generated above.
    
 
+
 C. How to run the Project
 
    We are using the WebdriverIO, a populer open-source testing framework with a powerful set of APIs for webpage 
    interaction. WebdriverIO (WDIO) will help to create and run test for web applications. 
 
+   
    Step to run the Project:
    1. We need to create a directory for test project
       mkdir sample-wdio-project
@@ -97,6 +100,7 @@ D. Testing project
    check the functionality of the Urban Routes. Write your tests in the createAnOrder.e2e.js file located in the 
    test/specs folder. 
 
+   
    Write automated tests covering the full process of ordering a taxi. The test should cover:
    
    1. Setting the address
