@@ -95,6 +95,7 @@ C. How to run the Project
       the menu with three dots, and then clicking Help --> About Google Chrome.
 
   6.  After everything installed well, you can run a test, using command,
+      
       npm run wdio
     
     
