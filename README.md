@@ -54,20 +54,25 @@ C. How to run the Project
       npm init --yes
 
    3. npx will create a project file as follow below,
+
+      
       <img width="517" alt="image" src="https://github.com/user-attachments/assets/8a4a1bb5-aa32-43cc-b04c-17e8367530d8" 
       />
 
-   4. Install all its dependencies, to do this, run the following command
+
+   5. Install all its dependencies, to do this, run the following command
       npx wdio config
 
-   5. The WDIO installer will run
+   6. The WDIO installer will run
 
        
 
       <img width="508" alt="image" src="https://github.com/user-attachments/assets/2af1fa9a-fcaf-407c-a45d-8d76a280ab26" />
+
      
       During the installation, you will be asked a series of question, some questions will require you to type in Y or N. Other question will require you to use the arrow 
       keys for up and down. The option highlighted in blue is the option you have selected and you press the Enter key to confirm of your choice.
+
 
       <img width="586" alt="image" src="https://github.com/user-attachments/assets/321d80e5-a39e-4712-a6b6-01860d46c9a8" />
 
