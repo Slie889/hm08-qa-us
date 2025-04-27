@@ -11,6 +11,7 @@ A. The purpose of this project testing is automating the UI testing with the Web
 
 B. We will use Git and GitHub for this project. Set-up instruction as follow below,
 
+   
    Step 1. Clone the repo to your computer
       
    Linked your account with GitHub, a repository will be created automatically. The repository name will be hm08-qa-us.  
