@@ -49,6 +49,7 @@ C. How to run the Project
    
    Step to run the Project:
    1. We need to create a directory for test project
+      
       mkdir sample-wdio-project
 
    2. After creating the directory, we need to set up a Node.js project
