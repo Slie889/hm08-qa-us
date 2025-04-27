@@ -35,8 +35,10 @@ B. We will use Git and GitHub for this project. Set-up instruction as follow bel
    Server address: https://cnt-347e6e3a-bc67-4764-9dc8-47934b5a9732.containerhub.tripleten-services.com
 
    In wdio.conf.js, replace the base URL with the Urban Routes URL generated above.
+   
 
 C. How to run the Project
+
    We are using the WebdriverIO, a populer open-source testing framework with a powerful set of APIs for webpage 
    interaction. WebdriverIO (WDIO) will help to create and run test for web applications. 
 
