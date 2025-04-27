@@ -1,6 +1,7 @@
 Urban Route UI Testing Project
 
 A. The purpose of this project testing is automating the UI testing with the WebdriverIO framework. The benefit of using 
+
    WebdriverIO framework is:
    - Provides a high-level Application Programming Interface (API)
    - Makes writing, maintaining, and scaling tes suites easier.
