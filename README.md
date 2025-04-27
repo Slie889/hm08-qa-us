@@ -76,6 +76,17 @@ C. How to run the Project
 
       <img width="586" alt="image" src="https://github.com/user-attachments/assets/321d80e5-a39e-4712-a6b6-01860d46c9a8" />
 
+
+      Now you can run auto-generated test to check that everything was installed correctly. First, let's check that you have a compatible version of Chrome installed.
+
+      If your WDIO was not working or you did not see the chromedriver in the selections, look for the package.jason file. Open it up using a text editor or just using 
+      your browser. You will see something like as below,
+
+      <img width="556" alt="image" src="https://github.com/user-attachments/assets/3de7963b-6387-4919-b94b-7792a013a07d" />
+
+      
+   
+      
       
 
            
