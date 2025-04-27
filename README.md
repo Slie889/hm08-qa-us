@@ -84,17 +84,10 @@ C. How to run the Project
 
       <img width="556" alt="image" src="https://github.com/user-attachments/assets/3de7963b-6387-4919-b94b-7792a013a07d" />
 
-      
-   
-      
-      
-
-           
-
-   
-
-   
-
+      The version of chromedriver is 112.0.0. If the version of Chrome installed is lower, we may encounter errors. To check the current version of Chrome by clicking on 
+      the menu with three dots, and then clicking Help --> About Google Chrome.
+    
+    
 D. Testing project
 
    The key factor of writing the effective tests is being able to accurately locate elements on a webpage. The methods for 
