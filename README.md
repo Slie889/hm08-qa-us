@@ -38,7 +38,31 @@ B. We will use Git and GitHub for this project. Set-up instruction as follow bel
 
 C. How to run the Project
    We are using the WebdriverIO, a populer open-source testing framework with a powerful set of APIs for webpage 
-   interaction.   
+   interaction. WebdriverIO (WDIO) will help to create and run test for web applications. 
+
+   Step to run the Project:
+   1. We need to create a directory for test project
+      mkdir sample-wdio-project
+
+   2. After creating the directory, we need to set up a Node.js project
+      # move terminal to the directory that you want to use
+      cd sample-wdio-project
+
+      # run the npm command to initialize a project
+      npm init --yes
+
+   3. npx will create a project file as follow below,
+      <img width="517" alt="image" src="https://github.com/user-attachments/assets/8a4a1bb5-aa32-43cc-b04c-17e8367530d8" 
+      />
+
+   4. Install all its dependencies, to do this, run the following command
+      npx wdio config
+
+           
+
+   
+
+   
 
 D. Testing project
 
