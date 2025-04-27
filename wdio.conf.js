@@ -1,5 +1,4 @@
 exports.config = {
-
     //
     // ====================
     // Runner Configuration
@@ -51,8 +50,8 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        maxInstances: 5,
         browserName: 'chrome',
+        maxInstances: 5,
         acceptInsecureCerts: true,
     }],
 
@@ -64,7 +63,7 @@ exports.config = {
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     logLevel: 'error',
-    services: ['chromedriver', 'intercept'],
+    services: ['chromedriver','intercept'],
     //
     // Set specific log levels per logger
     // loggers:
@@ -83,13 +82,12 @@ exports.config = {
     // If you only want to run your tests until a specific amount of tests have failed use
     // bail (default is 0 - don't bail, run all tests).
     bail: 0,
-    baseUrl: 'https://cnt-3120857e-0d6f-40be-a433-5800fe38535d.containerhub.tripleten-services.com/',
     //
     // Set a base URL in order to shorten url command calls. If your `url` parameter starts
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    // baseUrl: 'http://localhost:8080',
+    baseUrl: 'https://cnt-1fa95619-f6ef-4849-9321-ad053620d8d6.containerhub.tripleten-services.com/',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
