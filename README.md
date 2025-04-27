@@ -62,6 +62,8 @@ C. How to run the Project
 
    5. The WDIO installer will run
 
+       
+
       <img width="508" alt="image" src="https://github.com/user-attachments/assets/2af1fa9a-fcaf-407c-a45d-8d76a280ab26" />
      
       During the installation, you will be asked a series of question, some questions will require you to type in Y or N. Other question will require you to use the arrow 
