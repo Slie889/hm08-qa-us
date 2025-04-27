@@ -36,11 +36,16 @@ B. We will use Git and GitHub for this project. Set-up instruction as follow bel
 
    In wdio.conf.js, replace the base URL with the Urban Routes URL generated above.
 
+C. How to run the Project
+   We are using the WebdriverIO, a populer open-source testing framework with a powerful set of APIs for webpage 
+   interaction.   
 
-C. Testing project
+D. Testing project
 
-   Write several tests to check the functionality of the Urban Routes. Write your tests in the createAnOrder.e2e.js file 
-   located in the test/specs folder.
+   The key factor of writing the effective tests is being able to accurately locate elements on a webpage. The methods for 
+   finding the elements such as using CSS selectors,XPath expressions, and accessibility locators. Write several tests to 
+   check the functionality of the Urban Routes. Write your tests in the createAnOrder.e2e.js file located in the 
+   test/specs folder. 
 
    Write automated tests covering the full process of ordering a taxi. The test should cover:
    
