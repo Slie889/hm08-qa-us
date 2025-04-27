@@ -65,10 +65,11 @@ C. How to run the Project
       />
 
 
-   5. Install all its dependencies, to do this, run the following command
+   4. Install all its dependencies, to do this, run the following command
+
       npx wdio config
 
-   7. The WDIO installer will run
+   5. The WDIO installer will run
 
        
 
@@ -92,7 +93,7 @@ C. How to run the Project
       The version of chromedriver is 112.0.0. If the version of Chrome installed is lower, we may encounter errors. To check the current version of Chrome by clicking on 
       the menu with three dots, and then clicking Help --> About Google Chrome.
 
-  8.  After everything installed well, you can run a test, using command,
+  6.  After everything installed well, you can run a test, using command,
       npm run wdio
     
     
